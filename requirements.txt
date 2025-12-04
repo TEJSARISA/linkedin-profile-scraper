@@ -1,0 +1,30 @@
+# LinkedIn Profile Scraper Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+requests>=2.28.0
+urllib3>=1.26.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Web scraping (optional - for advanced use)
+BeautifulSoup4>=4.11.0
+lxml>=4.9.0
+
+# Browser automation (optional - for JavaScript rendering)
+selenium>=4.8.0
+Chrome-Driver>=2.50.0
+
+# Proxy management (optional)
+proxy-requests>=0.6.0
+
+# Logging and monitoring
+python-dotenv>=0.21.0
+
+# Development dependencies
+pytest>=7.2.0
+black>=22.0.0
+flake8>=4.0.0
+pylint>=2.15.0
